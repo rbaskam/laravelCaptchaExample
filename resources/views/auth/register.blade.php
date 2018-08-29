@@ -69,7 +69,7 @@
                                 <button type="button" class="btn btn-success btn-refresh">Refresh</button>
                             </div>
 
-                            <input type="text" id="captcha" class="form-control" placeholder="Enter Captcha" name ="captcha">
+                            <input type="text" id="captcha" class="form-control" placeholder="Enter Captcha" name ="captcha" required>
                             
                                 @if ($errors->has('captcha'))
                                     <span class="invalid-feedback" role="alert">
